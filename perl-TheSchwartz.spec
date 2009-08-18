@@ -12,7 +12,7 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/TheSchwartz/%{pdir}-%{version}.tar.gz
+Source0:	http://search.cpan.org/CPAN/authors/id/B/BR/BRADFITZ/%{pdir}-%{version}.tar.gz
 # Source0-md5:	c5c4c2a0c8a43f2c5e698e8d849f2382
 URL:		http://search.cpan.org/dist/TheSchwartz/
 BuildRequires:	perl-devel >= 1:5.8.0
