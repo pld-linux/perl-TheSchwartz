@@ -17,9 +17,7 @@ Source0:	http://search.cpan.org/CPAN/authors/id/B/BR/BRADFITZ/%{pdir}-%{version}
 URL:		http://search.cpan.org/dist/TheSchwartz/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-%if %{with tests}
 BuildRequires:	perl(Data::ObjectDriver) >= 0.04
-%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
