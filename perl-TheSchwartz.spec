@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests		# perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	TheSchwartz
 Summary:	TheSchwartz - reliable job queue
 #Summary(pl.UTF-8):	
